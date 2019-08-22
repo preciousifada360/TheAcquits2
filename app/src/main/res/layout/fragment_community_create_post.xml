@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    tools:context=".community">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/editText_community_type_your_post"
+            android:layout_width="384dp"
+            android:layout_height="427dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="204dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/plaintext"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Type Your Post..."
+            android:inputType="textMultiLine"
+            android:textColorHint="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.51"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText_community_whats_on_your_mind"
+            android:layout_width="227dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/plaintext"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="What's on your mind?"
+            android:inputType="textMultiLine"
+            android:shadowRadius="2"
+            android:textColorHint="@android:color/white"
+            app:layout_constraintBottom_toTopOf="@+id/editText_community_type_your_post"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="180dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="New Post"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="33dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_post_community"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="24dp"
+            android:hint="Post"
+            android:textSize="22dp"
+            android:background="@drawable/btn_plain"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText_community_type_your_post" />
+
+        <ImageView
+            android:id="@+id/imageView_community_post"
+            android:layout_width="64dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/img_choose_avatar"
+            app:layout_constraintBottom_toTopOf="@+id/editText_community_type_your_post"
+            app:layout_constraintEnd_toStartOf="@+id/editText_community_whats_on_your_mind"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

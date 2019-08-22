@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_dashboard"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_daily_tracker"
+        android:icon="@drawable/ic_date_range"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_community"
+        android:icon="@drawable/ic_question"
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/nav_training"
+        android:icon="@drawable/ic_play_circle"
+        android:title=""
+        app:showAsAction="always"/>
+</menu>

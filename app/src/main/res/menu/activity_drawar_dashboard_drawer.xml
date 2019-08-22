@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_daily_tracker"
+            android:icon="@drawable/ic_date_range"
+            android:title="Daily Tracker" />
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_community"
+            android:title="Community" />
+        <item
+            android:id="@+id/nav_training"
+            android:icon="@drawable/ic_play_circle"
+            android:title="Training" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lifestyle"
+            android:icon="@drawable/ic_lifestyle"
+            android:title="Lifestyle Metrics" />
+        <item
+            android:id="@+id/nav-well_being"
+            android:icon="@drawable/ic_poll"
+            android:title="Well-being" />
+        <item
+            android:id="@+id/nav_allies"
+            android:icon="@drawable/ic_people"
+            android:title="Allies" />
+        <item
+            android:id="@+id/nav_freedom_plan"
+            android:icon="@drawable/ic_flag"
+            android:title="Freedom Plan" />
+        <item
+            android:id="@+id/nav_journal"
+            android:icon="@drawable/ic_pen"
+            android:title="Journal" />
+
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_coaching"
+            android:icon="@drawable/ic_chat_black_24dp"
+            android:title="Coaching" />
+        <item
+            android:id="@+id/nav-support_groups"
+            android:icon="@drawable/ic_group_work"
+            android:title="Support Groups" />
+        <item
+            android:id="@+id/nav_webinars"
+            android:icon="@drawable/ic_mic"
+            android:title="Webinars" />
+        <item
+            android:id="@+id/nav_awards"
+            android:icon="@drawable/ic_award"
+            android:title="Awards" />
+        <item
+            android:id="@+id/nav_resources"
+            android:icon="@drawable/ic_resources"
+            android:title="Resources" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_build"
+            android:title="Settings" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_customer_support"
+                android:icon="@drawable/ic_headset"
+                android:title="Customer Support" />
+        </menu>
+    </item>
+
+</menu>
