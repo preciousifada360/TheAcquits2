@@ -1,5 +1,7 @@
 package com.skillseeds.theacquits.Models;
 
+import androidx.annotation.NonNull;
+
 public class trainingModel {
 
     private String id;
@@ -28,5 +30,11 @@ public class trainingModel {
 
     public String getIconUrl() {
         return iconUrl;
+    }
+
+    @NonNull
+    @Override
+    public String toString() {
+        return "ID: "+id + " Title: "+ title+ " Description: "+ description + " IconUrl: "+iconUrl;
     }
 }
